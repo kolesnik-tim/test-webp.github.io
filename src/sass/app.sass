@@ -5,3 +5,17 @@
 @import containers/all
 @import home/all
 @import pages/all
+
+
+.home-img
+  max-width: 200px
+  width: 100%
+  +cover
+  height: 300px
+
+html.webp .home-img
+  background-image: url(../img/article-img.webp)
+html.no-webp .home-img
+  background-image: url(../img/article-img.jpg)
+
+  
